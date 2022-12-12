@@ -9,6 +9,6 @@ app.get('/something', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log("server started on port 8000")
+app.listen(8000, () => {
+    console.log("server started on port 800")
 })
