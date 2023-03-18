@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-MY_NAME=Lokanath
-MY_AGE=23
+COUNT = 0
 
-if [ "$MY_NAME" = "Lokanath" ]
-then
-    echo "you are the correct person for this job"
-else
-    echo "you are not the correct person for this job"
-fi
+while [$COUNT -lt 10]
+do 
+  echo THIS IS THE VALUE OF COUNT $COUNT
+  ((COUNT ++))
+done
+
+echo THE WHILE LOOP HAS ENDED NOW
