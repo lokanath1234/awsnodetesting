@@ -2,7 +2,7 @@
 
 COUNT=0
 
-while [$COUNT -lt 10]
+while [ $COUNT -lt 10 ]
 do 
   echo THIS IS THE VALUE OF COUNT $COUNT
   ((COUNT ++))
